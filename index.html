@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Política de Privacidad / Privacy Policy - Word Search: Create and Play</title>
+    <style>
+      :root {
+        --bg: #f6f8fb;
+        --card: #ffffff;
+        --text: #1b1d22;
+        --muted: #5a6472;
+        --line: #dde3ec;
+        --accent: #1f6feb;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        line-height: 1.55;
+      }
+      main { max-width: 860px; margin: 40px auto; padding: 0 18px 40px; }
+      .card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 26px 22px; }
+      h1 { margin: 0 0 8px; font-size: 1.9rem; line-height: 1.2; }
+      h2 { margin: 26px 0 10px; font-size: 1.1rem; }
+      p, li { color: var(--text); }
+      .meta { color: var(--muted); margin: 0; }
+      ul { margin: 8px 0 0 20px; padding: 0; }
+      a { color: var(--accent); }
+      .note { margin-top: 16px; padding: 12px 14px; border: 1px solid var(--line); border-radius: 10px; background: #f9fbff; color: var(--muted); }
+      .langbar {
+        display: flex; gap: 10px; margin: 14px 0 6px;
+        padding: 10px 12px; border: 1px solid var(--line); border-radius: 12px; background: #fbfcff;
+        align-items: center; justify-content: flex-start;
+      }
+      .langbtn {
+        appearance: none; border: 1px solid var(--line); background: white; color: var(--text);
+        padding: 8px 10px; border-radius: 10px; cursor: pointer; font-weight: 600;
+      }
+      .langbtn.active { border-color: var(--accent); color: var(--accent); }
+      .section { display: none; }
+      .section.active { display: block; }
+      .divider { margin: 18px 0 0; border-top: 1px dashed var(--line); }
+      .small { font-size: 0.95rem; color: var(--muted); }
+    </style>
+  </head>
+  <body>
+    <main>
+      <article class="card">
+        <h1>Política de Privacidad / Privacy Policy</h1>
+        <p class="meta"><strong>Aplicación / App:</strong> Sopa de Letras: Crea y Juega (Word Search: Create and Play)</p>
+        <p class="meta"><strong>Última actualización / Last updated:</strong> 13 de febrero de 2026</p>
+
+        <div class="langbar" role="navigation" aria-label="Selector de idioma / Language selector">
+          <span class="small"><strong>Idioma / Language:</strong></span>
+          <button class="langbtn active" id="btn-es" type="button">Español</button>
+          <button class="langbtn" id="btn-en" type="button">English</button>
+        </div>
+
+        <!-- ===================== ESPAÑOL ===================== -->
+        <section class="section active" id="sec-es" lang="es">
+          <h2>1. Quiénes somos</h2>
+          <p>
+            Esta Política de Privacidad describe cómo <strong>Sopa de Letras: Crea y Juega</strong> trata la información cuando usas la aplicación.
+          </p>
+
+          <h2>2. Qué información se trata</h2>
+          <p><strong>Sopa de Letras: Crea y Juega</strong> no requiere crear cuenta ni iniciar sesión.</p>
+          <ul>
+            <li>
+              <strong>Datos que escribes en la app:</strong> palabras, pistas, título y configuración de la sopa de letras.
+              Estos datos se procesan principalmente en tu dispositivo para generar tableros y exportaciones.
+            </li>
+            <li>
+              <strong>Preferencias locales:</strong> idioma, progreso de recompensas, estilo visual y modo de lectura.
+              Se guardan localmente en tu dispositivo (AsyncStorage).
+            </li>
+            <li>
+              <strong>Compras dentro de la app:</strong> la verificación del estado premium se realiza mediante RevenueCat y la tienda de la plataforma
+              (Google Play en Android).
+            </li>
+            <li>
+              <strong>Publicidad:</strong> en Android, si no tienes premium, se muestran anuncios con Google Mobile Ads (AdMob),
+              incluyendo banner, interstitial y rewarded ads.
+            </li>
+            <li>
+              <strong>Identificadores y datos técnicos (publicidad/analítica del SDK):</strong> los servicios de anuncios pueden recopilar
+              identificadores del dispositivo (por ejemplo, <em>Advertising ID</em>), dirección IP, información del sistema (versión del SO),
+              idioma, datos aproximados (como región), y eventos de interacción con anuncios (impresiones, clics) para mostrar anuncios,
+              limitar fraudes, medir rendimiento y mejorar el servicio.
+            </li>
+            <li>
+              <strong>Exportación y compartir:</strong> al generar PNG/PDF, la app crea archivos temporales locales y los comparte
+              solo si tú eliges usar la función de compartir.
+            </li>
+          </ul>
+
+          <h2>3. Para qué usamos la información</h2>
+          <ul>
+            <li>Generar y mostrar sopas de letras dentro de la app.</li>
+            <li>Guardar tus preferencias y progreso de forma local.</li>
+            <li>Procesar compras y habilitar contenido premium.</li>
+            <li>Mostrar anuncios y recompensas en la versión con anuncios.</li>
+            <li>Permitir exportar y compartir resultados en PNG/PDF.</li>
+            <li>Medir rendimiento, diagnosticar fallos y prevenir fraude en anuncios.</li>
+          </ul>
+
+          <h2>4. Servicios de terceros</h2>
+          <p>
+            Algunos servicios de terceros pueden tratar datos técnicos o identificadores del dispositivo según sus propias políticas y configuraciones:
+          </p>
+          <ul>
+            <li>Google AdMob: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">https://policies.google.com/privacy</a></li>
+            <li>RevenueCat: <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener noreferrer">https://www.revenuecat.com/privacy</a></li>
+            <li>Google Play (facturación): <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">https://policies.google.com/privacy</a></li>
+          </ul>
+
+          <h2>5. Consentimiento y anuncios</h2>
+          <p>
+            Cuando sea requerido por ley (por ejemplo, en ciertas jurisdicciones), la app puede solicitar tu consentimiento para el uso de anuncios
+            personalizados o para el tratamiento de identificadores publicitarios. Cuando sea posible, podrás optar por anuncios no personalizados.
+          </p>
+
+          <h2>6. Base legal (si aplica en tu jurisdicción)</h2>
+          <ul>
+            <li>Ejecución del servicio (funcionamiento de la app y compras).</li>
+            <li>Interés legítimo (seguridad, prevención de fraude, mejora técnica).</li>
+            <li>Consentimiento cuando la ley lo exija (por ejemplo, para ciertos usos de publicidad).</li>
+          </ul>
+
+          <h2>7. Conservación de datos</h2>
+          <ul>
+            <li>Las preferencias locales permanecen en tu dispositivo hasta que borres los datos de la app o la desinstales.</li>
+            <li>Los datos de compra y facturación se conservan según RevenueCat y Google Play.</li>
+            <li>Los archivos temporales de exportación pueden quedar en almacenamiento local según el flujo de compartir/imprimir.</li>
+          </ul>
+
+          <h2>8. Tus derechos</h2>
+          <p>
+            Dependiendo de tu país, puedes tener derechos de acceso, rectificación, eliminación u oposición. Para solicitudes relacionadas con compras
+            o datos tratados por terceros, también puedes contactar directamente a RevenueCat o Google.
+          </p>
+
+          <h2>9. Menores de edad</h2>
+          <p>
+            La app no está dirigida específicamente a menores de 13 años ni busca recopilar intencionalmente datos personales de menores.
+            Si detectas un caso, contáctanos para atenderlo.
+          </p>
+
+          <h2>10. Seguridad</h2>
+          <p>
+            Se aplican medidas razonables para reducir riesgos, pero ningún sistema es 100% infalible. Te recomendamos mantener tu dispositivo actualizado y protegido.
+          </p>
+
+          <h2>11. Cambios a esta política</h2>
+          <p>
+            Esta política puede actualizarse cuando cambien funciones, servicios de terceros o requisitos legales. La fecha de “Última actualización”
+            indicará la versión vigente.
+          </p>
+
+          <h2>12. Contacto</h2>
+          <p>
+            Responsable: <strong>JEDevelop</strong><br />
+            Correo: <strong>jedevelop10@gmail.com</strong>
+          </p>
+        </section>
+
+        <div class="divider" aria-hidden="true"></div>
+
+        <!-- ===================== ENGLISH ===================== -->
+        <section class="section" id="sec-en" lang="en">
+          <h2>1. Who we are</h2>
+          <p>
+            This Privacy Policy describes how <strong>Word Search: Create and Play</strong> (“Sopa de Letras: Crea y Juega”) handles information when you use the app.
+          </p>
+
+          <h2>2. What information is processed</h2>
+          <p><strong>Word Search: Create and Play</strong> does not require creating an account or signing in.</p>
+          <ul>
+            <li>
+              <strong>Data you enter in the app:</strong> words, clues, title, and word-search settings.
+              This data is primarily processed on your device to generate boards and exports.
+            </li>
+            <li>
+              <strong>Local preferences:</strong> language, reward progress, visual style, and reading mode.
+              Stored locally on your device (AsyncStorage).
+            </li>
+            <li>
+              <strong>In-app purchases:</strong> premium status verification is handled through RevenueCat and the platform store
+              (Google Play on Android).
+            </li>
+            <li>
+              <strong>Advertising:</strong> on Android, if you are not premium, ads are shown via Google Mobile Ads (AdMob),
+              including banner, interstitial, and rewarded ads.
+            </li>
+            <li>
+              <strong>Identifiers and technical data (ads/SDK telemetry):</strong> ad services may collect device identifiers (e.g., <em>Advertising ID</em>),
+              IP address, system information (OS version), language, approximate data (such as region), and ad interaction events
+              (impressions, clicks) to serve ads, limit fraud, measure performance, and improve services.
+            </li>
+            <li>
+              <strong>Export & sharing:</strong> when generating PNG/PDF, the app creates temporary local files and shares them only if you choose to use the share feature.
+            </li>
+          </ul>
+
+          <h2>3. How we use the information</h2>
+          <ul>
+            <li>Generate and display word searches in the app.</li>
+            <li>Store your preferences and progress locally.</li>
+            <li>Process purchases and enable premium content.</li>
+            <li>Show ads and rewards in the ad-supported version.</li>
+            <li>Allow exporting and sharing results in PNG/PDF.</li>
+            <li>Measure performance, diagnose issues, and prevent ad fraud.</li>
+          </ul>
+
+          <h2>4. Third-party services</h2>
+          <p>
+            Some third-party services may process technical data or device identifiers according to their own policies and settings:
+          </p>
+          <ul>
+            <li>Google AdMob: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">https://policies.google.com/privacy</a></li>
+            <li>RevenueCat: <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener noreferrer">https://www.revenuecat.com/privacy</a></li>
+            <li>Google Play (billing): <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">https://policies.google.com/privacy</a></li>
+          </ul>
+
+          <h2>5. Consent and ads</h2>
+          <p>
+            Where required by law (for example, in certain jurisdictions), the app may request your consent for personalized ads
+            or for processing advertising identifiers. When available, you may be offered non-personalized ads.
+          </p>
+
+          <h2>6. Legal basis (where applicable)</h2>
+          <ul>
+            <li>Service delivery (app functionality and purchases).</li>
+            <li>Legitimate interests (security, fraud prevention, technical improvement).</li>
+            <li>Consent where required by law (e.g., certain advertising uses).</li>
+          </ul>
+
+          <h2>7. Data retention</h2>
+          <ul>
+            <li>Local preferences remain on your device until you clear the app’s data or uninstall it.</li>
+            <li>Purchase and billing data are retained according to RevenueCat and Google Play.</li>
+            <li>Temporary export files may remain in local storage depending on the share/print flow.</li>
+          </ul>
+
+          <h2>8. Your rights</h2>
+          <p>
+            Depending on your country, you may have rights to access, correct, delete, or object to certain processing.
+            For requests related to purchases or third-party processed data, you may also contact RevenueCat or Google directly.
+          </p>
+
+          <h2>9. Children</h2>
+          <p>
+            The app is not specifically directed to children under 13 and does not knowingly collect personal data from children.
+            If you believe a child has provided personal data, please contact us.
+          </p>
+
+          <h2>10. Security</h2>
+          <p>
+            We apply reasonable measures to reduce risks, but no system is 100% secure. We recommend keeping your device updated and protected.
+          </p>
+
+          <h2>11. Changes to this policy</h2>
+          <p>
+            This policy may be updated when features, third-party services, or legal requirements change. The “Last updated” date indicates the current version.
+          </p>
+
+          <h2>12. Contact</h2>
+          <p>
+            Owner: <strong>JEDevelop</strong><br />
+            Email: <strong>jedevelop10@gmail.com</strong>
+          </p>
+        </section>
+      </article>
+    </main>
+
+    <script>
+      (function () {
+        const btnEs = document.getElementById("btn-es");
+        const btnEn = document.getElementById("btn-en");
+        const secEs = document.getElementById("sec-es");
+        const secEn = document.getElementById("sec-en");
+
+        function setLang(lang) {
+          const isEs = lang === "es";
+          secEs.classList.toggle("active", isEs);
+          secEn.classList.toggle("active", !isEs);
+          btnEs.classList.toggle("active", isEs);
+          btnEn.classList.toggle("active", !isEs);
+          document.documentElement.lang = lang;
+        }
+
+        btnEs.addEventListener("click", () => setLang("es"));
+        btnEn.addEventListener("click", () => setLang("en"));
+      })();
+    </script>
+  </body>
+</html>

@@ -154,6 +154,7 @@
             <li>La app puede usarse con cuenta o como invitado.</li>
             <li>Guardamos progreso local y, cuando corresponde, sincronizamos progreso en la nube.</li>
             <li>Si no eres premium, la app puede mostrar anuncios (banner, interstitial y rewarded).</li>
+            <li>Por motivos operativos, de cumplimiento, seguridad o calidad del trafico, la configuracion de anuncios puede ajustarse remotamente, incluyendo activar, desactivar o cambiar proveedor o formato.</li>
             <li>Las compras premium y consumibles se validan con servicios de terceros.</li>
             <li>No vendemos tus datos personales.</li>
           </ul>
@@ -180,8 +181,19 @@
               incluyendo eventos de impresion/click y datos tecnicos asociados al SDK de anuncios.
             </li>
             <li>
+              <strong>Configuracion remota y proveedores de anuncios:</strong> cuando hay conexion a internet,
+              la app puede consultar configuraciones remotas para activar, desactivar o cambiar determinados
+              proveedores o formatos publicitarios. Segun la configuracion activa, la app tambien puede usar
+              Unity LevelPlay / Unity Ads para la entrega y medicion de anuncios.
+            </li>
+            <li>
               <strong>Notificaciones locales:</strong> recordatorios del reto diario programados localmente en el dispositivo.
               Puedes desactivarlos desde la configuracion del sistema.
+            </li>
+            <li>
+              <strong>Notificaciones push y recordatorios remotos:</strong> la app tambien puede registrar token push,
+              identificador de instalacion y zona horaria para gestionar recordatorios remotos y diagnostico basico
+              de entrega de notificaciones.
             </li>
             <li>
               <strong>Exportacion y compartir:</strong> al exportar PNG/PDF se crean archivos temporales locales,
@@ -195,6 +207,7 @@
             <li>Guardar y restaurar progreso entre sesiones y dispositivos cuando aplique.</li>
             <li>Validar recompensas y compras de forma segura (anti fraude e idempotencia).</li>
             <li>Mostrar anuncios y habilitar recompensas por anuncios en cuentas no premium.</li>
+            <li>Administrar configuraciones remotas, cumplimiento publicitario, seguridad tecnica y prevencion de trafico invalido o fraude.</li>
             <li>Habilitar exportacion, compartir y funciones de soporte.</li>
           </ul>
 
@@ -203,6 +216,8 @@
           <ul>
             <li>Supabase: <a href="https://supabase.com/privacy" target="_blank" rel="noopener noreferrer">https://supabase.com/privacy</a></li>
             <li>Google AdMob / Google: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">https://policies.google.com/privacy</a></li>
+            <li>Unity / Unity Ads / LevelPlay: <a href="https://unity.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer">https://unity.com/legal/privacy-policy</a></li>
+            <li>Expo: <a href="https://expo.dev/privacy" target="_blank" rel="noopener noreferrer">https://expo.dev/privacy</a></li>
             <li>RevenueCat: <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener noreferrer">https://www.revenuecat.com/privacy</a></li>
             <li>Google Play Billing: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">https://policies.google.com/privacy</a></li>
           </ul>
@@ -267,6 +282,7 @@
             <li>The app can be used with an account or as a guest.</li>
             <li>Progress is saved locally and, when applicable, synced to the cloud.</li>
             <li>If you are not premium, ads may be shown (banner, interstitial, rewarded).</li>
+            <li>For operational, compliance, security, or traffic-quality reasons, ad configuration may be adjusted remotely, including enabling, disabling, or changing provider or format.</li>
             <li>Premium and consumable purchases are validated through third-party services.</li>
             <li>We do not sell your personal data.</li>
           </ul>
@@ -293,8 +309,18 @@
               including ad impression/click events and related SDK technical data.
             </li>
             <li>
+              <strong>Remote configuration and ad providers:</strong> when internet access is available,
+              the app may fetch remote configuration to enable, disable, or change certain ad providers or
+              formats. Depending on the active configuration, the app may also use Unity LevelPlay / Unity Ads
+              for ad delivery and measurement.
+            </li>
+            <li>
               <strong>Local notifications:</strong> local daily challenge reminders scheduled on-device.
               You can disable notifications from system settings.
+            </li>
+            <li>
+              <strong>Push notifications and remote reminders:</strong> the app may also register push token,
+              installation identifier, and time zone in order to manage remote reminders and basic notification-delivery diagnostics.
             </li>
             <li>
               <strong>Export and sharing:</strong> PNG/PDF export creates temporary local files,
@@ -308,6 +334,7 @@
             <li>Save and restore progress across sessions and devices where applicable.</li>
             <li>Securely validate rewards and purchases (anti-fraud and idempotency).</li>
             <li>Serve ads and ad-based rewards in non-premium accounts.</li>
+            <li>Manage remote configuration, ad compliance, technical security, and prevention of invalid traffic or fraud.</li>
             <li>Enable export, sharing, and support operations.</li>
           </ul>
 
@@ -316,6 +343,8 @@
           <ul>
             <li>Supabase: <a href="https://supabase.com/privacy" target="_blank" rel="noopener noreferrer">https://supabase.com/privacy</a></li>
             <li>Google AdMob / Google: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">https://policies.google.com/privacy</a></li>
+            <li>Unity / Unity Ads / LevelPlay: <a href="https://unity.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer">https://unity.com/legal/privacy-policy</a></li>
+            <li>Expo: <a href="https://expo.dev/privacy" target="_blank" rel="noopener noreferrer">https://expo.dev/privacy</a></li>
             <li>RevenueCat: <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener noreferrer">https://www.revenuecat.com/privacy</a></li>
             <li>Google Play Billing: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">https://policies.google.com/privacy</a></li>
           </ul>
